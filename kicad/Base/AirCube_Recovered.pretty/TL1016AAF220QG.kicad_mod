@@ -1,0 +1,335 @@
+(footprint "TL1016AAF220QG"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TL1016AAF220QG-1")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at -3.5 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "638ccfdd-bdb5-484a-bafd-e2f4450c5213")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TL1016AAF220QG"
+		(at 0 0.325 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7702458c-c274-4d1b-83a4-9dc33686c877")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1016AAF220QG.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67c55549-5b8f-4f70-b64a-ec1d8f4429f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount, Right Angle"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51a6ce58-8bc7-408b-950e-df75b68230f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.35"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45c483cf-8164-4565-a071-9eb89bcbd881")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Mouser Part Number" "612-TL1016AAF220QG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "124951a6-1c41-4438-b143-ae6e122713a5")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2489f1e5-93b6-4766-b1c3-a918f2ba11d1")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "E-Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f30bc939-7b7f-44f0-9f9d-15cc9b66b684")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TL1016AAF220QG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f9dd9b9-e692-453a-a92d-bd980f0820ec")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "AirCube.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.1 -0.675)
+		(end -3.1 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bce7a458-83b6-4e55-96b8-6bcc47d33dec")
+	)
+	(fp_line
+		(start -3 -0.675)
+		(end -3 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc37da26-782e-48b2-b276-689d867c6509")
+	)
+	(fp_line
+		(start -0.85 1.45)
+		(end -0.85 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd79722e-b5f0-45bf-867f-f70d91e26d5c")
+	)
+	(fp_line
+		(start -0.85 2.1)
+		(end 0.85 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f4c2a91-8ea5-41f9-9ba7-4d4661897d62")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.85 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df288628-657b-40dc-ac09-00a140e5c05b")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8879f22-4c8a-4d3e-bc1e-b60417ce470e")
+	)
+	(fp_line
+		(start 0.85 2.1)
+		(end 0.85 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c16904b-3c5a-43fc-990b-7b295268e7e1")
+	)
+	(fp_arc
+		(start -3.1 -0.675)
+		(mid -3.05 -0.725)
+		(end -3 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82aab335-bcd9-4bc1-823b-22c41c8a6233")
+	)
+	(fp_arc
+		(start -3 -0.675)
+		(mid -3.05 -0.625)
+		(end -3.1 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab953311-e4ab-4d25-b798-526fc6d7b65d")
+	)
+	(fp_line
+		(start -1.75 -1.45)
+		(end 1.75 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f3a40e1-0100-4b19-bfeb-6c3915da7911")
+	)
+	(fp_line
+		(start -1.75 1.45)
+		(end -1.75 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c31e09b3-a535-4c3f-99c1-a13469d2b7c0")
+	)
+	(fp_line
+		(start -0.85 1.45)
+		(end -0.85 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6262be73-ef43-4e18-868d-7e9ab22318e5")
+	)
+	(fp_line
+		(start -0.85 2.1)
+		(end 0.85 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecceb247-4eb2-4097-ad9b-c3f7f0e46f4d")
+	)
+	(fp_line
+		(start 0.85 2.1)
+		(end 0.85 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "392aa20c-b680-4a0a-9599-e912f0a8b354")
+	)
+	(fp_line
+		(start 1.75 -1.45)
+		(end 1.75 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae963131-0705-4867-9ec1-11c2963ce0b2")
+	)
+	(fp_line
+		(start 1.75 1.45)
+		(end -1.75 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28200468-5669-4ae9-a4f4-148f51691c1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.325 0)
+		(layer "F.Fab")
+		(uuid "8c15d5c4-978e-4d22-a982-420565c0d3ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 -0.725 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f159f584-f092-47f9-9b2d-3fcbd776549a")
+	)
+	(pad "2" smd rect
+		(at 1.8 -0.725 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "752013f7-6727-429e-8330-c3dfeb9d775e")
+	)
+	(pad "3" smd rect
+		(at -1.8 0.725 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7897ac8f-9570-4c2e-b8fb-eff4ad6de865")
+	)
+	(pad "4" smd rect
+		(at 1.8 0.725 90)
+		(size 1.05 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c41a14e-efa1-4f84-8ab5-01af220b6fba")
+	)
+	(embedded_fonts no)
+	(model "TL1016AAF220QG.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
