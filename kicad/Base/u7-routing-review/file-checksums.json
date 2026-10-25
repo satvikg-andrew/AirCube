@@ -1,0 +1,13 @@
+{
+  "AirCube.kicad_pcb": "e75536b822524960ea28adbe088f35cc5cfe916c5d7d9a60dd645f7c1463c437",
+  "README-u7-routing.md": "bc7dcc11f4ce698214084dfe71e61702a04f5bf72e58eab66a2bfa05e2cfcea8",
+  "u7-routing-review/AirCube-U7-DRC.rpt": "155a04dee354a0327ec56339d061a4eb0e66878a4471d94db2eda8807d87da4b",
+  "u7-routing-review/DRC.json": "09d5588d7f2dd61a4516cf5076a18c1d1e50c608db686c129cde49f24200ec97",
+  "u7-routing-review/board-outer-copper.svg": "a874517a2dc64c08c60460146dd94355e53e9f2dce05e6f621b08a8e0c2f7a39",
+  "u7-routing-review/geometry-check.json": "d786edf9a7e74338f67fdcdef4aa2387949b55b12ef21aaf68e1076600631fe7",
+  "u7-routing-review/local-connectivity.json": "23f880d4d5bd19d67a273232ebddb573bc042279346fa44b52cda91f1b511c5d",
+  "u7-routing-review/routing-log.json": "43f891f5e18d929ac6a8082c9c8ac8e19851ca44b996b966d52b38e44d3028b3",
+  "u7-routing-review/u7-copper-preview.png": "161b048085dbb72d11d9a6afa6ae5bac3b79c270175708c22ac77f0bafe53bfc",
+  "u7-routing-review/validation-summary.json": "0312c67b45c4f362f6b87384706c7b167f713140681097a373c982017fbdedb3",
+  "u7-routing-review/via-placement-check.json": "d8efa570b0dfd94bef1d09178ff091f0bd2490345332cb6f1951df92db76005f"
+}

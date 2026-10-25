@@ -1,0 +1,15 @@
+{
+  "status": "UNROUTED PLACEMENT CHECKPOINT - NOT FOR FABRICATION",
+  "kicad_version": "10.0.7",
+  "placement_drc_violations": 0,
+  "unconnected_drc_reports": 331,
+  "schematic_parity_violations": 0,
+  "schematic_erc_errors": 0,
+  "schematic_off_grid_warnings": 132,
+  "nets_verified_unchanged": 156,
+  "footprint_pad_objects_checked": 558,
+  "pads_outside_board_or_intersecting_cutouts": 0,
+  "fab_graphics_outside_board_or_intersecting_cutouts": 0,
+  "source_zip_sha256": "ce898b46dfe9136322353d65b65c3bf249c10a18b69b0432d771f3453a212bfb",
+  "source_pcb_sha256": "ae46c4affcd32a16e916a159e244a750572816b50e43fd635cd77f7e9789c94e"
+}

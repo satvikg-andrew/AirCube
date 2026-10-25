@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "AirCube_Custom")(type "KiCad")(uri "${KIPRJMOD}/AirCube_Custom.kicad_sym")(options "")(descr "AirCube project symbols"))
+  (lib (name "custom_IC")(type "KiCad")(uri "${KIPRJMOD}/AirCube_CustomIC_Recovered.kicad_sym")(options "")(descr "Recovered faithfully from embedded AirCube schematic symbols"))
+  (lib (name "SAMC21_breakout-rescue")(type "KiCad")(uri "${KIPRJMOD}/AirCube_SAMC21_Recovered.kicad_sym")(options "")(descr "Recovered faithfully from embedded AirCube schematic symbols"))
 )

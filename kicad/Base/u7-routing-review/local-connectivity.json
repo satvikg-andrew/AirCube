@@ -1,0 +1,99 @@
+{
+  "verification": "Native KiCad connectivity graph traversal for each of seven local U7 circuit nets, plus full-board pad assignment/value comparison and declared-placement-change check.",
+  "local_circuit_nets": [
+    {
+      "net": "/MODEM_VBAT",
+      "local_pad_objects": 6,
+      "all_local_pads_connected": true,
+      "pins": [
+        "C18.2",
+        "L1.1",
+        "R27.2",
+        "TP3.1",
+        "U7.14",
+        "U7.7"
+      ]
+    },
+    {
+      "net": "GND",
+      "local_pad_objects": 17,
+      "all_local_pads_connected": true,
+      "pins": [
+        "C12.2",
+        "C13.2",
+        "C18.1",
+        "C19.1",
+        "C21.2",
+        "R25.1",
+        "R26.1",
+        "U7.15",
+        "U7.16",
+        "U7.17",
+        "U7.6",
+        "U7.8"
+      ]
+    },
+    {
+      "net": "Net-(U7-SS{slash}TR)",
+      "local_pad_objects": 2,
+      "all_local_pads_connected": true,
+      "pins": [
+        "C19.2",
+        "U7.9"
+      ]
+    },
+    {
+      "net": "Net-(U7-FB)",
+      "local_pad_objects": 3,
+      "all_local_pads_connected": true,
+      "pins": [
+        "R26.2",
+        "R27.1",
+        "U7.5"
+      ]
+    },
+    {
+      "net": "+5VD",
+      "local_pad_objects": 6,
+      "all_local_pads_connected": true,
+      "pins": [
+        "C12.1",
+        "C13.1",
+        "C21.1",
+        "U7.10",
+        "U7.11",
+        "U7.12"
+      ]
+    },
+    {
+      "net": "Net-(L1-Pad2)",
+      "local_pad_objects": 4,
+      "all_local_pads_connected": true,
+      "pins": [
+        "L1.2",
+        "U7.1",
+        "U7.2",
+        "U7.3"
+      ]
+    },
+    {
+      "net": "/MODEM_SUPPLY_EN",
+      "local_pad_objects": 2,
+      "all_local_pads_connected": true,
+      "pins": [
+        "R25.2",
+        "U7.13"
+      ]
+    }
+  ],
+  "global_pad_assignments_and_component_values_unchanged": true,
+  "moved_components": [
+    "C12",
+    "C13",
+    "C21"
+  ],
+  "track_segments": 72,
+  "vias": 11,
+  "existing_unrouted_globals": "U7 input is not yet connected to USB power; MODEM_SUPPLY_EN is not yet connected to the MCU; modem BB/RF power distribution remains unrouted.",
+  "hardware_validation": "Not performed. DRC/connectivity do not prove regulator startup, stability, transient response, current capability or thermal performance."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "Ground-reference preparation; still unrouted and not fabrication-ready",
+  "source_sha256": "b5aab87d51536329bedce2535d12ca413904938cecfe46df592b8dd95a764303",
+  "footprints_unchanged": 125,
+  "pad_geometry_and_net_assignments_unchanged": true,
+  "copper_layers": 4,
+  "tracks": 0,
+  "zones": [
+    {
+      "name": "ENS161 thermal island",
+      "type": "sensor thermal exclusion",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "name": "ENS210 thermal island",
+      "type": "sensor thermal exclusion",
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "name": "Inner 1 GND reference",
+      "type": "filled ground plane",
+      "net": "GND",
+      "layers": [
+        "In1.Cu"
+      ],
+      "filled_area_mm2": 1702.604039332788,
+      "filled_contours": 1,
+      "pad_connection": "solid",
+      "isolated_island_removal": "always"
+    },
+    {
+      "name": "Inner 2 GND reference",
+      "type": "filled ground plane",
+      "net": "GND",
+      "layers": [
+        "In2.Cu"
+      ],
+      "filled_area_mm2": 1702.604039332788,
+      "filled_contours": 1,
+      "pad_connection": "solid",
+      "isolated_island_removal": "always"
+    }
+  ],
+  "stackup": "Uploaded provisional 1.66 mm stackup retained; manufacturer dielectric and copper specification not finalized."
+}

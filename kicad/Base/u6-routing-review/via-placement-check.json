@@ -1,0 +1,5 @@
+{
+  "new_vias_checked": 12,
+  "new_drill_openings_intersecting_outer_SMD_pad_bounding_boxes_expanded_0_05mm": [],
+  "scope": "Conservative 2-D geometric screen for added drill openings versus outer SMD lands; not an assembly DFM approval."
+}

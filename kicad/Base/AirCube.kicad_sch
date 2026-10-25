@@ -2946,7 +2946,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IN-PI15TAT5R5G5B_1"
+		(symbol "custom_IC:IN-PI15TAT5R5G5B_1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3168,7 +3168,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IN-PI15TAT5R5G5B_2"
+		(symbol "custom_IC:IN-PI15TAT5R5G5B_2"
 			(pin_names
 				(offset 0.254)
 			)
@@ -17349,7 +17349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 296.2402 203.835 0)
 			(hide yes)
 			(show_name no)
@@ -17510,7 +17510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 104.902 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -18607,7 +18607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 144.272 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -18834,7 +18834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1U-N8"
 			(at 289.1633 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18845,7 +18845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "AirCube_Recovered:ESP32-S3-WROOM-1U_ThermalDrill0.30"
 			(at 287.02 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -19201,7 +19201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 218.948 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -21653,7 +21653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 176.022 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -22294,7 +22294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 236.5502 203.835 0)
 			(hide yes)
 			(show_name no)
@@ -23198,7 +23198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 266.3952 203.835 0)
 			(hide yes)
 			(show_name no)
@@ -24459,7 +24459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "AirCube_Recovered:SOT-23"
 			(at 204.47 193.675 0)
 			(hide yes)
 			(show_name no)
@@ -24949,7 +24949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias"
+		(property "Footprint" "AirCube_Recovered:TPS6213x_RGT_ThermalDrill0.30"
 			(at 254 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -25938,7 +25938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 124.1552 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26102,7 +26102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias"
+		(property "Footprint" "AirCube_Recovered:TPS6213x_RGT_ThermalDrill0.30"
 			(at 213.36 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -26784,7 +26784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 299.4152 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -28334,8 +28334,7 @@
 		)
 	)
 	(symbol
-		(lib_name "IN-PI15TAT5R5G5B_1")
-		(lib_id "custom_IC:IN-PI15TAT5R5G5B")
+		(lib_id "custom_IC:IN-PI15TAT5R5G5B_1")
 		(at 248.92 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -28533,7 +28532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 268.9352 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -28695,7 +28694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 79.7052 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -28936,7 +28935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 54.3052 123.825 0)
 			(hide yes)
 			(show_name no)
@@ -29017,7 +29016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 134.62 161.798 90)
 			(hide yes)
 			(show_name no)
@@ -29176,7 +29175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 334.9752 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -30297,7 +30296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 170.688 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -30456,7 +30455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 70.1802 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -31874,7 +31873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 197.358 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -32908,7 +32907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 96.647 38.735 90)
 			(hide yes)
 			(show_name no)
@@ -33309,7 +33308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 226.695 192.913 90)
 			(hide yes)
 			(show_name no)
@@ -35000,7 +34999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:R_0603_1608Metric"
 			(at 89.027 38.735 90)
 			(hide yes)
 			(show_name no)
@@ -35213,8 +35212,7 @@
 		)
 	)
 	(symbol
-		(lib_name "IN-PI15TAT5R5G5B_2")
-		(lib_id "custom_IC:IN-PI15TAT5R5G5B")
+		(lib_id "custom_IC:IN-PI15TAT5R5G5B_2")
 		(at 278.765 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -36388,7 +36386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "AirCube_Recovered:TPS22975_DSG_TI_LandPattern"
 			(at 93.98 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -36490,7 +36488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "AirCube_Recovered:C_0603_1608Metric"
 			(at 234.6452 45.72 0)
 			(hide yes)
 			(show_name no)

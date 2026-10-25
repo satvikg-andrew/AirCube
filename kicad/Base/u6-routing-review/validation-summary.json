@@ -1,0 +1,19 @@
+{
+  "status": "PARTIALLY ROUTED - NOT FABRICATION READY",
+  "kicad_version": "10.0.7",
+  "main_drc_violations": 0,
+  "unconnected_reports": 273,
+  "schematic_parity_issues": 0,
+  "U6_local_nets_connectivity_verified": 5,
+  "U7_local_nets_connectivity_preserved": 7,
+  "regulator_inputs_physically_joined": true,
+  "moved_components": [
+    "C20",
+    "C22",
+    "C25",
+    "C28"
+  ],
+  "new_track_segments": 70,
+  "new_vias": 12,
+  "source_pcb_sha256": "e75536b822524960ea28adbe088f35cc5cfe916c5d7d9a60dd645f7c1463c437"
+}

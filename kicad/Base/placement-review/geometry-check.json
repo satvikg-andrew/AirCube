@@ -1,0 +1,6 @@
+{
+  "method": "Independent conservative axis-aligned bounding-box containment against original rounded board and L-shaped thermal cutouts; includes plated/nonplated holes and copper pads. Fab graphics check is a 2-D land-pattern/body approximation, not 3-D enclosure verification.",
+  "pads_checked": 558,
+  "pads_outside_board_or_intersecting_cutouts": [],
+  "fab_graphics_outside_board_or_intersecting_cutouts": []
+}

@@ -1,0 +1,1120 @@
+[
+  {
+    "net": "Net-(L1-Pad2)",
+    "start": [
+      30.5375,
+      57.25
+    ],
+    "end": [
+      30.2,
+      57.25
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "SW pin escape"
+  },
+  {
+    "net": "Net-(L1-Pad2)",
+    "start": [
+      30.5375,
+      57.75
+    ],
+    "end": [
+      30.2,
+      57.75
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "SW pin escape"
+  },
+  {
+    "net": "Net-(L1-Pad2)",
+    "start": [
+      30.5375,
+      58.25
+    ],
+    "end": [
+      30.2,
+      58.25
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "SW pin escape"
+  },
+  {
+    "net": "Net-(L1-Pad2)",
+    "start": [
+      30.2,
+      57.25
+    ],
+    "end": [
+      30.2,
+      58.25
+    ],
+    "width_mm": 0.3,
+    "layer": "F.Cu",
+    "role": "SW pin bus"
+  },
+  {
+    "net": "Net-(L1-Pad2)",
+    "start": [
+      28.435,
+      58.0
+    ],
+    "end": [
+      30.2,
+      58
+    ],
+    "width_mm": 0.8,
+    "layer": "F.Cu",
+    "role": "SW power link"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      33.4625,
+      58.25
+    ],
+    "end": [
+      33.8,
+      58.25
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "VIN pin escape"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      33.4625,
+      57.75
+    ],
+    "end": [
+      33.8,
+      57.75
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "VIN pin escape"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      33.4625,
+      57.25
+    ],
+    "end": [
+      33.8,
+      57.25
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "VIN pin escape"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      33.8,
+      57.25
+    ],
+    "end": [
+      33.8,
+      58.25
+    ],
+    "width_mm": 0.3,
+    "layer": "F.Cu",
+    "role": "VIN pin bus"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      34.75,
+      55.5
+    ],
+    "end": [
+      34.75,
+      56.7
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "input bulk to PVIN"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      34.75,
+      56.7
+    ],
+    "end": [
+      34.2,
+      57.25
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "input bulk to PVIN"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      34.2,
+      57.25
+    ],
+    "end": [
+      33.8,
+      57.25
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "input bulk to PVIN"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      35.075,
+      58.0
+    ],
+    "end": [
+      34.65,
+      58
+    ],
+    "width_mm": 0.4,
+    "layer": "F.Cu",
+    "role": "local AVIN bypass"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      34.65,
+      58
+    ],
+    "end": [
+      34.4,
+      58.25
+    ],
+    "width_mm": 0.4,
+    "layer": "F.Cu",
+    "role": "local AVIN bypass"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      34.4,
+      58.25
+    ],
+    "end": [
+      33.8,
+      58.25
+    ],
+    "width_mm": 0.4,
+    "layer": "F.Cu",
+    "role": "local AVIN bypass"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      34.725,
+      51.5
+    ],
+    "end": [
+      34.725,
+      55.475
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "additional input bypass"
+  },
+  {
+    "net": "+5VD",
+    "start": [
+      34.725,
+      55.475
+    ],
+    "end": [
+      34.75,
+      55.5
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "additional input bypass"
+  },
+  {
+    "net": "GND",
+    "start": [
+      31.75,
+      59.4625
+    ],
+    "end": [
+      31.75,
+      58
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "direct EP ground tie"
+  },
+  {
+    "net": "GND",
+    "start": [
+      32.75,
+      59.4625
+    ],
+    "end": [
+      32.75,
+      58
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "direct EP ground tie"
+  },
+  {
+    "net": "GND",
+    "start": [
+      31.75,
+      56.5375
+    ],
+    "end": [
+      31.75,
+      58
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "direct EP ground tie"
+  },
+  {
+    "net": "GND",
+    "start": [
+      31.25,
+      56.5375
+    ],
+    "end": [
+      31.25,
+      58
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "direct EP ground tie"
+  },
+  {
+    "net": "GND",
+    "position": [
+      36.65,
+      54.45
+    ],
+    "diameter_mm": 0.8,
+    "drill_mm": 0.4,
+    "role": "ground"
+  },
+  {
+    "net": "GND",
+    "start": [
+      36.65,
+      55.5
+    ],
+    "end": [
+      36.65,
+      54.45
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "position": [
+      36.8,
+      59
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "ground"
+  },
+  {
+    "net": "GND",
+    "start": [
+      36.625,
+      58.0
+    ],
+    "end": [
+      36.8,
+      58.175
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "start": [
+      36.8,
+      58.175
+    ],
+    "end": [
+      36.8,
+      59
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "position": [
+      36.275,
+      52.4
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "ground"
+  },
+  {
+    "net": "GND",
+    "start": [
+      36.275,
+      51.5
+    ],
+    "end": [
+      36.275,
+      52.4
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "position": [
+      28.725,
+      60.6
+    ],
+    "diameter_mm": 0.8,
+    "drill_mm": 0.4,
+    "role": "ground"
+  },
+  {
+    "net": "GND",
+    "start": [
+      28.725,
+      62.5
+    ],
+    "end": [
+      28.725,
+      60.6
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "position": [
+      34.4,
+      61
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "ground"
+  },
+  {
+    "net": "GND",
+    "start": [
+      34.725,
+      60.0
+    ],
+    "end": [
+      34.4,
+      60.325
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "start": [
+      34.4,
+      60.325
+    ],
+    "end": [
+      34.4,
+      61
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "position": [
+      30.35,
+      54.7
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "ground"
+  },
+  {
+    "net": "GND",
+    "start": [
+      31.175,
+      54.7
+    ],
+    "end": [
+      30.35,
+      54.7
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "position": [
+      29.9,
+      63.3
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "ground"
+  },
+  {
+    "net": "GND",
+    "start": [
+      30.675,
+      64.2
+    ],
+    "end": [
+      29.9,
+      64.2
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "GND",
+    "start": [
+      29.9,
+      64.2
+    ],
+    "end": [
+      29.9,
+      63.3
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "local ground return"
+  },
+  {
+    "net": "/MODEM_SUPPLY_EN",
+    "start": [
+      32.825,
+      54.7
+    ],
+    "end": [
+      32.825,
+      55.7
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "enable/pull-down"
+  },
+  {
+    "net": "/MODEM_SUPPLY_EN",
+    "start": [
+      32.825,
+      55.7
+    ],
+    "end": [
+      32.75,
+      55.775
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "enable/pull-down"
+  },
+  {
+    "net": "/MODEM_SUPPLY_EN",
+    "start": [
+      32.75,
+      55.775
+    ],
+    "end": [
+      32.75,
+      56.5375
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "enable/pull-down"
+  },
+  {
+    "net": "Net-(U7-SS{slash}TR)",
+    "start": [
+      33.4625,
+      58.75
+    ],
+    "end": [
+      34,
+      59.2
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "soft-start"
+  },
+  {
+    "net": "Net-(U7-SS{slash}TR)",
+    "start": [
+      34,
+      59.2
+    ],
+    "end": [
+      35.5,
+      59.2
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "soft-start"
+  },
+  {
+    "net": "Net-(U7-SS{slash}TR)",
+    "start": [
+      35.5,
+      59.2
+    ],
+    "end": [
+      36.275,
+      60.0
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "soft-start"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      26.065,
+      58.0
+    ],
+    "end": [
+      26.065,
+      60.2
+    ],
+    "width_mm": 1.0,
+    "layer": "F.Cu",
+    "role": "inductor to output capacitor"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      26.065,
+      60.2
+    ],
+    "end": [
+      25.775,
+      60.49
+    ],
+    "width_mm": 1.0,
+    "layer": "F.Cu",
+    "role": "inductor to output capacitor"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      25.775,
+      60.49
+    ],
+    "end": [
+      25.775,
+      62.5
+    ],
+    "width_mm": 1.0,
+    "layer": "F.Cu",
+    "role": "inductor to output capacitor"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "position": [
+      33,
+      62.5
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "quiet divider takeoff transition"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33,
+      62.5
+    ],
+    "end": [
+      32.325,
+      62.5
+    ],
+    "width_mm": 0.6,
+    "layer": "F.Cu",
+    "role": "output/divider top"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      32.25,
+      59.4625
+    ],
+    "end": [
+      32.25,
+      60.8
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "FSW frequency selection"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      32.25,
+      60.8
+    ],
+    "end": [
+      33,
+      61.55
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "FSW frequency selection"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33,
+      61.55
+    ],
+    "end": [
+      33,
+      62.5
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "FSW frequency selection"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "position": [
+      32.15,
+      55.6
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "VOS sense transition"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "position": [
+      27.6,
+      60.6
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "VOS capacitor-side transition"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      32.25,
+      56.5375
+    ],
+    "end": [
+      32.25,
+      55.7
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "VOS sense"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      32.25,
+      55.7
+    ],
+    "end": [
+      32.15,
+      55.6
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "VOS sense"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      32.15,
+      55.6
+    ],
+    "end": [
+      30.9,
+      55.6
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "VOS sense"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      30.9,
+      55.6
+    ],
+    "end": [
+      30,
+      56.5
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "VOS sense"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      30,
+      56.5
+    ],
+    "end": [
+      30,
+      59.9
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "VOS sense"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      30,
+      59.9
+    ],
+    "end": [
+      27.6,
+      59.9
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "VOS sense"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      27.6,
+      59.9
+    ],
+    "end": [
+      27.6,
+      60.6
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "VOS sense"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      27.6,
+      60.6
+    ],
+    "end": [
+      27,
+      61.2
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "VOS capacitor takeoff"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      27,
+      61.2
+    ],
+    "end": [
+      27,
+      62.5
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "VOS capacitor takeoff"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      27,
+      62.5
+    ],
+    "end": [
+      25.775,
+      62.5
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "VOS capacitor takeoff"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      32.15,
+      55.6
+    ],
+    "end": [
+      33.3,
+      55.6
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "quiet divider supply from capacitor Kelvin takeoff"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33.3,
+      55.6
+    ],
+    "end": [
+      33.7,
+      56
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "quiet divider supply from capacitor Kelvin takeoff"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33.7,
+      56
+    ],
+    "end": [
+      33.7,
+      61.8
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "quiet divider supply from capacitor Kelvin takeoff"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33.7,
+      61.8
+    ],
+    "end": [
+      33,
+      62.5
+    ],
+    "width_mm": 0.2,
+    "layer": "B.Cu",
+    "role": "quiet divider supply from capacitor Kelvin takeoff"
+  },
+  {
+    "net": "Net-(U7-FB)",
+    "start": [
+      31.25,
+      59.4625
+    ],
+    "end": [
+      31.25,
+      60.2
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "feedback sense"
+  },
+  {
+    "net": "Net-(U7-FB)",
+    "start": [
+      31.25,
+      60.2
+    ],
+    "end": [
+      30.675,
+      60.775
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "feedback sense"
+  },
+  {
+    "net": "Net-(U7-FB)",
+    "start": [
+      30.675,
+      60.775
+    ],
+    "end": [
+      30.675,
+      62.5
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "feedback sense"
+  },
+  {
+    "net": "Net-(U7-FB)",
+    "start": [
+      30.675,
+      62.5
+    ],
+    "end": [
+      30.675,
+      63.3
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "feedback divider tap"
+  },
+  {
+    "net": "Net-(U7-FB)",
+    "start": [
+      30.675,
+      63.3
+    ],
+    "end": [
+      31.8,
+      63.3
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "feedback divider tap"
+  },
+  {
+    "net": "Net-(U7-FB)",
+    "start": [
+      31.8,
+      63.3
+    ],
+    "end": [
+      32.325,
+      63.825
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "feedback divider tap"
+  },
+  {
+    "net": "Net-(U7-FB)",
+    "start": [
+      32.325,
+      63.825
+    ],
+    "end": [
+      32.325,
+      64.2
+    ],
+    "width_mm": 0.2,
+    "layer": "F.Cu",
+    "role": "feedback divider tap"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "position": [
+      29.8,
+      53.9
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "role": "output testpoint transition"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33,
+      62.5
+    ],
+    "end": [
+      33,
+      61.6
+    ],
+    "width_mm": 0.25,
+    "layer": "B.Cu",
+    "role": "output testpoint spur"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33,
+      61.6
+    ],
+    "end": [
+      33.8,
+      60.8
+    ],
+    "width_mm": 0.25,
+    "layer": "B.Cu",
+    "role": "output testpoint spur"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33.8,
+      60.8
+    ],
+    "end": [
+      33.8,
+      54.8
+    ],
+    "width_mm": 0.25,
+    "layer": "B.Cu",
+    "role": "output testpoint spur"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      33.8,
+      54.8
+    ],
+    "end": [
+      32.9,
+      53.9
+    ],
+    "width_mm": 0.25,
+    "layer": "B.Cu",
+    "role": "output testpoint spur"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      32.9,
+      53.9
+    ],
+    "end": [
+      29.8,
+      53.9
+    ],
+    "width_mm": 0.25,
+    "layer": "B.Cu",
+    "role": "output testpoint spur"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      29.8,
+      53.9
+    ],
+    "end": [
+      29.8,
+      53.2
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "output testpoint spur"
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "start": [
+      29.8,
+      53.2
+    ],
+    "end": [
+      30.5,
+      52.5
+    ],
+    "width_mm": 0.25,
+    "layer": "F.Cu",
+    "role": "output testpoint spur"
+  }
+]

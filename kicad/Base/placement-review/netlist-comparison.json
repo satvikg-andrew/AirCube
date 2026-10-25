@@ -1,0 +1,6 @@
+{
+  "source_net_count": 156,
+  "revised_net_count": 156,
+  "changed_net_memberships": [],
+  "compared": "Native KiCad exported net names and sorted component-reference/pin membership; all identical."
+}

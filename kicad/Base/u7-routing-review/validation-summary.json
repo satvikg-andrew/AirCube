@@ -1,0 +1,16 @@
+{
+  "status": "PARTIALLY ROUTED - LOCAL U7 CIRCUIT ONLY - NOT FABRICATION READY",
+  "kicad_version": "10.0.7",
+  "main_drc_violations": 0,
+  "unconnected_reports": 298,
+  "schematic_parity_issues": 0,
+  "local_nets_connectivity_verified": 7,
+  "moved_components": [
+    "C12",
+    "C13",
+    "C21"
+  ],
+  "track_segments": 72,
+  "new_vias": 11,
+  "source_pcb_sha256": "1105f4ad42a0e3dea509415adfb32d8c0f5bdde68f41a027bdb16251bb741c1e"
+}

@@ -1,0 +1,185 @@
+{
+  "verification": "Native physical-connectivity traversal for the five local U6 nets and seven existing U7 nets; independent pad/net/value comparison; declared placement and prior-track preservation checks.",
+  "local_circuit_nets": {
+    "U6": [
+      {
+        "net": "GND",
+        "local_pad_objects": 16,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C20.2",
+          "C22.2",
+          "C25.2",
+          "C26.1",
+          "C28.1",
+          "U6.15",
+          "U6.16",
+          "U6.17",
+          "U6.5",
+          "U6.6",
+          "U6.8"
+        ]
+      },
+      {
+        "net": "+3V3",
+        "local_pad_objects": 6,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C22.1",
+          "C26.2",
+          "L2.1",
+          "TP2.1",
+          "U6.14",
+          "U6.7"
+        ]
+      },
+      {
+        "net": "Net-(L2-Pad2)",
+        "local_pad_objects": 4,
+        "all_local_pads_connected": true,
+        "pins": [
+          "L2.2",
+          "U6.1",
+          "U6.2",
+          "U6.3"
+        ]
+      },
+      {
+        "net": "Net-(U6-SS{slash}TR)",
+        "local_pad_objects": 2,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C28.2",
+          "U6.9"
+        ]
+      },
+      {
+        "net": "+5VD",
+        "local_pad_objects": 6,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C20.1",
+          "C25.1",
+          "U6.10",
+          "U6.11",
+          "U6.12",
+          "U6.13"
+        ]
+      }
+    ],
+    "U7": [
+      {
+        "net": "/MODEM_VBAT",
+        "local_pad_objects": 6,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C18.2",
+          "L1.1",
+          "R27.2",
+          "TP3.1",
+          "U7.14",
+          "U7.7"
+        ]
+      },
+      {
+        "net": "GND",
+        "local_pad_objects": 17,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C12.2",
+          "C13.2",
+          "C18.1",
+          "C19.1",
+          "C21.2",
+          "R25.1",
+          "R26.1",
+          "U7.15",
+          "U7.16",
+          "U7.17",
+          "U7.6",
+          "U7.8"
+        ]
+      },
+      {
+        "net": "Net-(U7-SS{slash}TR)",
+        "local_pad_objects": 2,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C19.2",
+          "U7.9"
+        ]
+      },
+      {
+        "net": "Net-(U7-FB)",
+        "local_pad_objects": 3,
+        "all_local_pads_connected": true,
+        "pins": [
+          "R26.2",
+          "R27.1",
+          "U7.5"
+        ]
+      },
+      {
+        "net": "+5VD",
+        "local_pad_objects": 6,
+        "all_local_pads_connected": true,
+        "pins": [
+          "C12.1",
+          "C13.1",
+          "C21.1",
+          "U7.10",
+          "U7.11",
+          "U7.12"
+        ]
+      },
+      {
+        "net": "Net-(L1-Pad2)",
+        "local_pad_objects": 4,
+        "all_local_pads_connected": true,
+        "pins": [
+          "L1.2",
+          "U7.1",
+          "U7.2",
+          "U7.3"
+        ]
+      },
+      {
+        "net": "/MODEM_SUPPLY_EN",
+        "local_pad_objects": 2,
+        "all_local_pads_connected": true,
+        "pins": [
+          "R25.2",
+          "U7.13"
+        ]
+      }
+    ]
+  },
+  "regulator_input_networks_physically_joined": true,
+  "global_component_values_and_pad_net_assignments_unchanged": true,
+  "moved_components": [
+    "C20",
+    "C22",
+    "C25",
+    "C28"
+  ],
+  "existing_U7_track_and_via_objects_preserved": true,
+  "new_track_segments": 70,
+  "new_vias": 12,
+  "total_track_segments": 142,
+  "total_vias": 23,
+  "ground_planes": [
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "filled_contours": 1,
+      "filled_area_mm2": 1692.50606202601
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "GND",
+      "filled_contours": 1,
+      "filled_area_mm2": 1692.50606202601
+    }
+  ],
+  "status": "Partial layout, not powered or hardware-validated."
+}

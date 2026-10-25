@@ -1,0 +1,26 @@
+{
+  "scope": "Added inter-regulator +5VD link only, trace-only DC estimate; not an ampacity or thermal qualification.",
+  "length_mm": 33.32045814642449,
+  "trace_width_mm": 0.6,
+  "assumed_copper_thickness_um": 35,
+  "assumed_resistivity_ohm_m_at_20C": 1.724e-08,
+  "trace_resistance_ohm_at_20C": 0.027354509449731352,
+  "operating_points": [
+    {
+      "current_A": 0.5,
+      "estimated_drop_mV": 13.677254724865676,
+      "estimated_loss_mW": 6.838627362432838
+    },
+    {
+      "current_A": 1,
+      "estimated_drop_mV": 27.354509449731353,
+      "estimated_loss_mW": 27.354509449731353
+    },
+    {
+      "current_A": 2,
+      "estimated_drop_mV": 54.709018899462706,
+      "estimated_loss_mW": 109.41803779892541
+    }
+  ],
+  "excluded": "Via barrels, connector/cable/source resistance, other PCB tracks, temperature rise, transient inductance, tolerances and actual manufacturing copper thickness. Final load/current budget and hardware tests remain necessary."
+}
