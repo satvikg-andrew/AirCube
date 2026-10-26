@@ -1,0 +1,178 @@
+{
+  "removed_existing_copper_items": 4,
+  "routing_clearance_mm": 0.1524,
+  "board_edge_violations": [],
+  "input_sha256": "4a5d6fedf97eb95ae622368d86fea058a81b7ab130cbd2ab2ef0418e0d2d185f",
+  "input_missing_connections": 45,
+  "output_missing_connections_after_refill_estimate": 37,
+  "new_tracks": 62,
+  "new_vias": 13,
+  "new_signal_vias": 11,
+  "new_ground_vias": 2,
+  "different_net_overlaps": [],
+  "new_clearance_issues_under_0_1524mm": [],
+  "minimum_new_copper_gap_mm": 0.16477474683057372,
+  "keepout_violations": [],
+  "minimum_new_drill_edge_gap_mm": 0.49300850337677005,
+  "new_drill_issues": [],
+  "minimum_new_drill_to_surface_pad_gap_mm": 0.21299999999999625,
+  "predicted_signal_via_to_ground_plane_gap_mm": 0.20099327331738964,
+  "connections": [
+    {
+      "start": "C23.1",
+      "end": "U2.4",
+      "net": "+1V8",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.254,
+      "length_mm": 1.574,
+      "segments": 5,
+      "via_xy_mm": [
+        [
+          64.05,
+          47.35
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "C38.2",
+      "end": "inner GND planes",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.2032,
+      "length_mm": 0.6199999999999974,
+      "via_xy_mm": [
+        [
+          47.0,
+          48.95
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "J6.SH",
+      "end": "J6.SH",
+      "net": "Net-(J6-SHIELD)",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.254,
+      "length_mm": 4.915,
+      "segments": 6,
+      "via_xy_mm": [
+        [
+          43.0,
+          81.4
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "J6.SH",
+      "end": "R16.1",
+      "net": "Net-(J6-SHIELD)",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.254,
+      "length_mm": 4.937,
+      "segments": 9,
+      "via_xy_mm": [
+        [
+          40.9,
+          83.7
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "J6.SH",
+      "end": "J6.SH",
+      "net": "Net-(J6-SHIELD)",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.254,
+      "length_mm": 8.478,
+      "segments": 9,
+      "via_xy_mm": [
+        [
+          53.15,
+          80.8
+        ],
+        [
+          52.85,
+          83.5
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "J6.SH",
+      "end": "R16.1",
+      "net": "Net-(J6-SHIELD)",
+      "layer": "F.Cu",
+      "width_mm": 0.254,
+      "length_mm": 11.668,
+      "segments": 7,
+      "via_xy_mm": [],
+      "verified_connected": true
+    },
+    {
+      "start": "SW1.2",
+      "end": "SW1.2",
+      "net": "Net-(U1-EN)",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.2032,
+      "length_mm": 7.2,
+      "segments": 3,
+      "via_xy_mm": [
+        [
+          55.9,
+          43.5
+        ],
+        [
+          51.05,
+          43.5
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "U11.5",
+      "end": "inner GND planes",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.1524,
+      "length_mm": 1.3578427124746095,
+      "via_xy_mm": [
+        [
+          47.55,
+          81.05
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "U11.4",
+      "end": "R34.2",
+      "net": "Net-(U11-VBUS_DET)",
+      "width_mm": 0.1524,
+      "length_mm": 22.583199846221433,
+      "segments": 17,
+      "via_xy_mm": [
+        [
+          45.95,
+          80.9
+        ],
+        [
+          42.75,
+          80.25
+        ],
+        [
+          40.9,
+          84.8
+        ],
+        [
+          52.0,
+          84.95
+        ]
+      ],
+      "verified_connected": true
+    }
+  ]
+}

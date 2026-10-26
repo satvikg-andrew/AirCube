@@ -1,0 +1,151 @@
+{
+  "removed_ground_loop_segments": 22,
+  "routing_clearance_mm": 0.1524,
+  "board_edge_violations": [],
+  "input_sha256": "7aa776693cd3b4ece9809fa9cee4b52209b993cabb4506a7e4b409a8836fde2f",
+  "input_missing_connections": 74,
+  "output_missing_connections_after_refill_estimate": 68,
+  "new_tracks": 85,
+  "new_vias": 9,
+  "new_signal_vias": 8,
+  "new_ground_vias": 1,
+  "different_net_overlaps": [],
+  "new_clearance_issues_under_0_1524mm": [],
+  "minimum_new_copper_gap_mm": 0.16076658034997648,
+  "keepout_violations": [],
+  "minimum_new_drill_edge_gap_mm": 0.26568542494923597,
+  "new_drill_issues": [],
+  "minimum_new_drill_to_surface_pad_gap_mm": 0.24999999999999864,
+  "predicted_signal_via_to_ground_plane_gap_mm": 0.20099327331739045,
+  "connections": [
+    {
+      "start": "U1.10",
+      "end": "U4.20",
+      "net": "/MODEM_TX_3V3",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.2032,
+      "length_mm": 33.437,
+      "segments": 24,
+      "via_xy_mm": [
+        [
+          45.3,
+          64.9
+        ],
+        [
+          56.5,
+          68.3
+        ],
+        [
+          60.3,
+          68.8
+        ],
+        [
+          64.2,
+          77.4
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "U1.2",
+      "end": "S3.3",
+      "net": "+3V3",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 51.048,
+      "segments": 21,
+      "via_xy_mm": [
+        [
+          62.9,
+          68.0
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "J5.1",
+      "end": "D8.1",
+      "net": "/MODEM_USB_VBUS",
+      "layer": "B.Cu",
+      "width_mm": 0.254,
+      "length_mm": 2.824,
+      "segments": 2,
+      "via_xy_mm": [],
+      "verified_connected": true
+    },
+    {
+      "start": "U11.10",
+      "end": "inner GND planes",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.1524,
+      "length_mm": 0.825,
+      "segments": 2,
+      "via_xy_mm": [],
+      "verified_connected": true
+    },
+    {
+      "start": "U11.11",
+      "end": "inner GND planes",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.1524,
+      "length_mm": 0.991,
+      "segments": 3,
+      "via_xy_mm": [
+        [
+          46.7,
+          84.1
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "U11.12",
+      "end": "C40.1",
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "width_mm": 0.1524,
+      "length_mm": 1.833,
+      "segments": 4,
+      "via_xy_mm": [],
+      "verified_connected": true
+    },
+    {
+      "start": "U11.1",
+      "end": "J6.A5",
+      "net": "Net-(J6-CC1)",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.1524,
+      "length_mm": 5.576,
+      "segments": 7,
+      "via_xy_mm": [
+        [
+          44.6,
+          81.2
+        ]
+      ],
+      "verified_connected": true
+    },
+    {
+      "start": "U1.2",
+      "end": "U11.12",
+      "net": "+3V3",
+      "layer": "B.Cu/F.Cu",
+      "width_mm": 0.254,
+      "length_mm": 49.284,
+      "segments": 22,
+      "via_xy_mm": [
+        [
+          42.2,
+          56.5
+        ],
+        [
+          45.4,
+          83.3
+        ]
+      ],
+      "verified_connected": true
+    }
+  ]
+}

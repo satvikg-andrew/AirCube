@@ -1,0 +1,19 @@
+{
+  "unchanged_footprints_and_pad_nets": true,
+  "all_original_tracks_and_vias_preserved": true,
+  "added": {
+    "/USB_D+": {
+      "tracks": 3,
+      "vias": 0,
+      "trace_length_mm": 2.350304832720494
+    },
+    "/MCU_DEBUG_RX": {
+      "tracks": 39,
+      "vias": 8,
+      "trace_length_mm": 111.3423885335127
+    }
+  },
+  "main_drc_violations": 0,
+  "unconnected_items": 28,
+  "schematic_parity_issues": 0
+}

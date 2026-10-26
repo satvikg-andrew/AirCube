@@ -1,0 +1,89 @@
+{
+  "tool": "KiCad 10.0.7",
+  "footprints_before": 119,
+  "footprints_after": 119,
+  "moved_footprints": [
+    {
+      "reference": "R10",
+      "before": {
+        "position_mm": [
+          45.8,
+          68.2
+        ],
+        "rotation_deg": 90.0
+      },
+      "after": {
+        "position_mm": [
+          39.4,
+          78.7
+        ],
+        "rotation_deg": 0.0
+      }
+    },
+    {
+      "reference": "R32",
+      "before": {
+        "position_mm": [
+          39.4,
+          77.0
+        ],
+        "rotation_deg": 0.0
+      },
+      "after": {
+        "position_mm": [
+          46.2,
+          64.9
+        ],
+        "rotation_deg": 90.0
+      }
+    },
+    {
+      "reference": "R33",
+      "before": {
+        "position_mm": [
+          39.4,
+          78.7
+        ],
+        "rotation_deg": 0.0
+      },
+      "after": {
+        "position_mm": [
+          46.2,
+          68.2
+        ],
+        "rotation_deg": -90.0
+      }
+    },
+    {
+      "reference": "R9",
+      "before": {
+        "position_mm": [
+          45.8,
+          64.9
+        ],
+        "rotation_deg": 90.0
+      },
+      "after": {
+        "position_mm": [
+          39.4,
+          77.0
+        ],
+        "rotation_deg": 0.0
+      }
+    }
+  ],
+  "missing_footprints": [],
+  "changed_pad_numbers_nets_sizes_or_layers": [],
+  "schematic_byte_identical": true,
+  "project_settings_byte_identical": true,
+  "tracks_and_vias_before": 1782,
+  "tracks_and_vias_after": 2471,
+  "added_copper_items": 887,
+  "removed_original_copper_items": 198,
+  "added_vias": 72,
+  "added_trace_minimum_width_mm": 0.1524,
+  "new_via_drills_in_smt_pads": [],
+  "pcb_sha256": "ecfa94bf6039cc4e0505028a567bca0244e84e303ff71a03e1188289a3575c48",
+  "schematic_sha256": "f42279ef41514c3d43aa5a1ccfb48a48b762fe455722686be607ec949f91fd80",
+  "project_sha256": "04fcd3bbc64647abb0f009c4d6c17a425865d4e663d8e94c27999479468e4637"
+}
