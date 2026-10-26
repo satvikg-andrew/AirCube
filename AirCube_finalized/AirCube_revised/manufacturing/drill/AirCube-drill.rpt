@@ -1,0 +1,33 @@
+Drill report for AirCube.kicad_pcb
+Created on 2026-10-26T18:17:19
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'AirCube-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (44 holes))
+    T2  0.254mm  0.0100"  (65 holes))
+    T3  0.300mm  0.0118"  (159 holes))
+    T4  0.300mm  0.0118"  (20 holes))
+    T5  0.400mm  0.0157"  (8 holes))
+    T6  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T7  0.730mm  0.0287"  (5 holes))
+    T8  1.000mm  0.0394"  (7 holes))
+
+    Total plated holes count 312
+
+
+Drill file 'AirCube-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes))
+    T2  2.200mm  0.0866"  (3 holes))
+
+    Total unplated holes count 5

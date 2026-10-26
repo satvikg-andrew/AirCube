@@ -1,0 +1,94 @@
+Subject: AirCube take-home — hardware design ready for review and two assembled boards
+
+Hi NOSO team,
+
+I have completed the current AirCube schematic and PCB routing and attached AirCube_revised.zip for the manufacturing review described in the take-home brief. Please review the package and coordinate fabrication, component procurement and assembly using the fixed specifications below.
+
+The design uses an ESP32-S3-WROOM-1U-N8, retains BLE for local pairing, removes the original Zigbee-capable MCU, adds a Quectel BG95-M3 with nano-SIM and external LTE antenna connection, and provides a UART connector for the Sensirion SPS30. The ENS161 and ENS210 sensors are retained.
+
+QUANTITY AND DELIVERY
+
+Please quote and deliver TWO identical, fully assembled PCBAs, populated on both sides, including the through-hole connectors/headers and any manual assembly required by the BOM. I need boards ready for programming and bring-up, not bare PCBs or component kits.
+
+One board will be the development/test unit and the second a comparison/spare. This avoids losing another fabrication cycle if an assembly fault or bring-up damage affects the first unit, which is important within the take-home timeline. I do not need additional bare boards. If JLCPCB requires a larger minimum fabrication lot, please include that minimum lot cost in the quote and have the assembler retain/recycle the unused bare boards; ship only the two assembled PCBAs.
+
+FIXED FABRICATION CONFIGURATION
+
+Manufacturer and assembly service: JLCPCB / JLCPCB assembly.
+Stackup: JLC04161H-3313, four layers, nominal 1.6 mm order category.
+Material: FR-4 using that exact stackup.
+Board outline: approximately 45.1 x 45.1 mm; preserve the supplied Edge.Cuts, isolation slots and mounting holes.
+Finish: ENIG.
+Solder mask: green, both sides.
+Silkscreen: white, both sides.
+Assembly: lead-free, both sides.
+
+Top-to-bottom stack:
+F.Cu: 0.035 mm
+3313 prepreg: 0.0994 mm
+In1.Cu: 0.0152 mm
+FR-4 core: 1.265 mm
+In2.Cu: 0.0152 mm
+3313 prepreg: 0.0994 mm
+B.Cu: 0.035 mm
+
+The copper/dielectric sum is 1.5642 mm. Including the existing CAD solder-mask model, the corrected KiCad total is 1.59468 mm and the native Gerber job rounds it to 1.5947 mm. Order using the nominal 1.6 mm category and exact JLC04161H-3313 code. The former inconsistent 1.66 mm metadata has been corrected.
+
+Please retain this manufacturer, stackup, component placement and routing. No alternate stackup, manufacturer, footprint substitution or circuit redesign is requested. If a genuine sourcing or manufacturing conflict is identified, please flag that specific issue before production rather than substituting or modifying the design.
+
+CONTROLLED IMPEDANCE AND DFM
+
+Please obtain JLCPCB's engineering confirmation of:
+- USB: 90 ohm differential, 0.130 mm trace width and nominal 0.127 mm pair gap, referenced to the adjacent inner ground layer/corridors.
+- LTE feed: 50 ohm single-ended, 0.170 mm F.Cu trace over In1.Cu ground.
+
+Please use the actual finished copper, dielectric and solder-mask construction in that calculation and return the supported production tolerance. This is verification of the selected design; please do not silently change the artwork or dielectric dimensions.
+
+The drill files specify 312 plated holes and five non-plated holes, with a minimum plated drill of 0.200 mm and four plated slots using a 0.600 mm tool. Via tenting is specified; resin filling and copper capping are not specified. Please review thermal-pad vias and stencil apertures for solder wicking, and use the supplied outline and hole files.
+
+Please include bare-board electrical testing, assembled-board visual/AOI inspection and appropriate inspection of hidden module/QFN solder joints. Confirm component polarity, pin numbering and bottom-side rotation conventions against the source. Any assembly tooling rails/fiducials should be added outside the functional board outline.
+
+BOM AND POPULATION
+
+Please follow the populated BOM and placement files. C38 and C39 must remain DNP.
+
+The selected power parts are:
+L1/L2: Coilcraft XAL4020-222MEC
+C18/C26: TDK C3225X7R1C226K250AC
+C33/C34: KEMET T520B107M006ATE040
+R28/R29: Vishay WFZ080500000ZE66
+
+Please preserve these parts and the selected MCU, BG95-M3 modem family, regulators and load switch. For remaining generic BOM entries, please complete the exact purchasing codes within the existing footprints and electrical requirements and return the purchasing BOM for approval. This is procurement completion, not authorization for a board redesign. Please identify any unavailable items before the order is placed.
+
+OFF-BOARD TEST KIT
+
+Please include ONE shared kit for sequential testing of the two assembled boards:
+- Sensirion SPS30 with a correctly pinned five-position, 1.5 mm JST-ZH mating cable for J1.
+- A 50 ohm U.FL LTE antenna covering the chosen BG95-M3/carrier bands.
+- A separate 2.4 GHz U.FL antenna for the ESP32-S3-WROOM-1U BLE interface.
+- A compatible activated nano-SIM/data plan for LTE Cat-M1/NB-IoT at my delivery/test location.
+- A 5 V / 3 A USB-C supply and suitable cable.
+- A 3.3 V UART programming/debug adapter and correctly wired modem USB-service adapter/cable.
+
+The kit can be transferred between the development and spare PCBAs, avoiding duplicate sensor/antenna/data-plan purchases. J1 pins are 1: +5VD, 2: PM_TX, 3: PM_RX, 4: unconnected, 5: GND; please verify the SPS30-end pin numbering and UART configuration before supplying the cable.
+
+The modem rail is nominally 3.792 V. The power budget is for LTE Cat-M1/NB-IoT with EGPRS/2G disabled, using the specified supply/cable and respecting USB-C source current advertisement. Power estimates and bring-up checks are in docs/POWER.md.
+
+FILES AND VALIDATION
+
+The ZIP includes KiCad 10 source and local footprints; regenerated four-layer Gerbers, mask, silk, paste and outline; separate plated/non-plated drills; BOM; placement data in millimetres; and the review reports.
+
+Please start with manufacturing/ORDER_SPECIFICATION.md and README_REVISIONS.md. The review/revision-manifest.json identifies the included source and outputs. Use the reports labelled final rather than the historical checkpoints.
+
+Final native KiCad PCB checks report zero DRC violations, zero unconnected items and zero schematic parity mismatches. The geometric USB ground-reference audit also passes with the documented pad/via-transition exclusions. Schematic ERC reports zero errors, with 235 standard-library lookup warnings in the review environment and 132 off-grid endpoint warnings retained in the report. Please include the normal schematic, sourcing and DFM review before production release.
+
+Firmware programming, hardware bring-up, cellular reporting tests and the required video/log capture will follow after I receive the assembled boards. The current package does not claim tested hardware operation.
+
+Please return the review outcome, purchasing BOM, impedance confirmation and itemized quote, with fabrication, procurement, assembly and shipping lead times. Please prioritize the earliest feasible delivery within the take-home schedule.
+
+Shipping details:
+[Full delivery address]
+[Recipient name and telephone number]
+
+Thank you,
+Satvik Gupta

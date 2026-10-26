@@ -1,0 +1,15 @@
+{
+  "physical_board_objects_unchanged": true,
+  "old_general_thickness_mm": "1.66",
+  "new_general_thickness_mm": "1.59468",
+  "native_job_thickness_mm": 1.5947,
+  "copper_gerber_artwork_unchanged": {
+    "AirCube-F_Cu.gtl": true,
+    "AirCube-In1_Cu.g1": true,
+    "AirCube-In2_Cu.g2": true,
+    "AirCube-B_Cu.gbl": true
+  },
+  "pcb_drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_mismatches": 0
+}

@@ -1,0 +1,591 @@
+{
+  "status": "Manufacturer review package; impedance/assembly approval and physical testing pending",
+  "kicad_version": "10.0.7",
+  "pcb_drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "schematic_erc": {
+    "errors": 0,
+    "warnings": 367
+  },
+  "files": {
+    "Base/.history/.git/HEAD": {
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "bytes": 23
+    },
+    "Base/.history/.git/config": {
+      "sha256": "c877f343674ad9b00866835132bc23c020e6ec1fabfa4194962982e9d543d7c9",
+      "bytes": 130
+    },
+    "Base/.history/.git/description": {
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "bytes": 73
+    },
+    "Base/.history/.git/hooks/README.sample": {
+      "sha256": "7319d7f1803fda2b3416143e426b9ec4c3c3c817c75188b2b82cb3e68ff293ab",
+      "bytes": 177
+    },
+    "Base/.history/.git/index": {
+      "sha256": "db97fdb54e6ab6a641502e56fb1c8dfcacfb4a63d3fded9b496dc5f546884e1f",
+      "bytes": 145
+    },
+    "Base/.history/.git/info/exclude": {
+      "sha256": "fdb7dc7be17051c3c5067cdf2b8fdf2ca3a8daf2b5e91f34c6ce1ff3a94c5f6a",
+      "bytes": 113
+    },
+    "Base/.history/.git/logs/HEAD": {
+      "sha256": "29280d611870f914c98e664422484f1943e0eca78aa10b92c520cc653f7cab69",
+      "bytes": 152
+    },
+    "Base/.history/.git/logs/refs/heads/master": {
+      "sha256": "29280d611870f914c98e664422484f1943e0eca78aa10b92c520cc653f7cab69",
+      "bytes": 152
+    },
+    "Base/.history/.git/objects/14/f9ac02612729f4d212601ba4bb734b677bea75": {
+      "sha256": "8ebe56b611190c31520390debdeadfbde3850fa16d8b63239bf2ca7934e0744d",
+      "bytes": 605798
+    },
+    "Base/.history/.git/objects/c0/d02503c149339482a194405ed74f55b5530b0a": {
+      "sha256": "84c59574ed1541add494de221274eb0a5eb4e3963f165d2989a69ca9bc86bb73",
+      "bytes": 62
+    },
+    "Base/.history/.git/objects/e3/8949c7150d83f3f5412d60aa4007440d5404a9": {
+      "sha256": "cf465517ed55f156a8eeb56f5337780c0cd6082a23808d42a320c75aa7e95b7b",
+      "bytes": 125
+    },
+    "Base/.history/.git/refs/heads/master": {
+      "sha256": "1fb03d389c21462fb7cd75abc01385b2702dcae3c3aa36f5b5da2c3af58ac17f",
+      "bytes": 41
+    },
+    "Base/.history/.git/refs/tags/Last_Save_pcb": {
+      "sha256": "1fb03d389c21462fb7cd75abc01385b2702dcae3c3aa36f5b5da2c3af58ac17f",
+      "bytes": 41
+    },
+    "Base/.history/.git/refs/tags/Save_pcb_1": {
+      "sha256": "1fb03d389c21462fb7cd75abc01385b2702dcae3c3aa36f5b5da2c3af58ac17f",
+      "bytes": 41
+    },
+    "Base/.history/.git/refs/tags/Save_pcb_2": {
+      "sha256": "1fb03d389c21462fb7cd75abc01385b2702dcae3c3aa36f5b5da2c3af58ac17f",
+      "bytes": 41
+    },
+    "Base/.history/.gitignore": {
+      "sha256": "c3312a64286ddc9011adb4ecbf90e1611d7f2c4653af14d2849fb7da2ea90421",
+      "bytes": 90
+    },
+    "Base/.history/AirCube.kicad_pcb": {
+      "sha256": "f71835a3c5f8d806b7e8d5b410806494c4fd9f86b21c4b6f0c0c91d416c6f80f",
+      "bytes": 2099859
+    },
+    "Base/.history/README.txt": {
+      "sha256": "15b177287f6d16d6517fbc6a27d7124d206fc05eed3dec20ae0b524fe2955c35",
+      "bytes": 569
+    },
+    "Base/AirCube.kicad_pcb": {
+      "sha256": "a681b0388b93534a5ed4b4b86668466ea58db055e2bda2288208294f701e7524",
+      "bytes": 2199381
+    },
+    "Base/AirCube.kicad_pro": {
+      "sha256": "5d6242933369b95fb9d2df38a34d436e569b8cf7e7bf6680bd75526b568ca831",
+      "bytes": 18630
+    },
+    "Base/AirCube.kicad_sch": {
+      "sha256": "a808eb4e3d81822cb17b16236b976353893511ca77d2419a52b66e1af64fe1e8",
+      "bytes": 632040
+    },
+    "Base/AirCube_Custom.kicad_sym": {
+      "sha256": "d0b1b581622b4fedb2286314e9e8a8b0de5be1b197071429a4f4f321189ef4f4",
+      "bytes": 3646
+    },
+    "Base/AirCube_CustomIC_Recovered.kicad_sym": {
+      "sha256": "1bfe16d2ef7b3c2dffa204b701c80be554d1500e65fdf5ec34549dd033a8c93a",
+      "bytes": 22495
+    },
+    "Base/AirCube_Recovered.pretty/AP2204.kicad_mod": {
+      "sha256": "98efc108ada6c4581ded56790d58fd99809cc00a797388cfb07bc387148ddbb8",
+      "bytes": 2632
+    },
+    "Base/AirCube_Recovered.pretty/AirCube_Logo_Documentation.kicad_mod": {
+      "sha256": "de707c034425e7707cb8de84f0c065d6ebb1d5d340c4cf8d23e3cd8b12135d77",
+      "bytes": 12103
+    },
+    "Base/AirCube_Recovered.pretty/C_0603_1608Metric.kicad_mod": {
+      "sha256": "2612a2c2e1375a88ce1ce18813602e70053c31a65bb2f5713b57d2222a5506e7",
+      "bytes": 3864
+    },
+    "Base/AirCube_Recovered.pretty/D_SOD-523.kicad_mod": {
+      "sha256": "d36a5a9aa29909c543cb8b39f8aba201ad6093d254951ec3cef8c35e0980247a",
+      "bytes": 4815
+    },
+    "Base/AirCube_Recovered.pretty/ENS161.kicad_mod": {
+      "sha256": "2fa630b0a740dcaba1511b4e1c4566b21fbae075b62b3e693de808f4292c1d8e",
+      "bytes": 3322
+    },
+    "Base/AirCube_Recovered.pretty/ENS210.kicad_mod": {
+      "sha256": "1691099a290c1210a9df6c16360ecfe2a5185ab759a60bfe92cc9db3d4dc3a93",
+      "bytes": 2598
+    },
+    "Base/AirCube_Recovered.pretty/ESP32-S3-WROOM-1U_ThermalDrill0.30.kicad_mod": {
+      "sha256": "3f8df3f05306e8494d9e8293b1d90dddafdf088869e4582f4454992dcfc57781",
+      "bytes": 15253
+    },
+    "Base/AirCube_Recovered.pretty/Fiducial_0.5mm_Mask1.5mm.kicad_mod": {
+      "sha256": "d39ff250cada0e057cc920b142a4b1da57d14095b6be9016a6d2cdbcc06ce7c8",
+      "bytes": 1871
+    },
+    "Base/AirCube_Recovered.pretty/GCT_USB4105-GF-A.kicad_mod": {
+      "sha256": "9935fe9e5c9dbeabdb0a550d31cc16383f92594c54d463c907508f6d3e70c1d6",
+      "bytes": 7961
+    },
+    "Base/AirCube_Recovered.pretty/IN-PI15_INL.kicad_mod": {
+      "sha256": "bf96e5ca85db5dbe81479765a051ef0dc85a337cb5cc185604a5c224a31b2975",
+      "bytes": 5852
+    },
+    "Base/AirCube_Recovered.pretty/LOGO_6mm_microDMG.kicad_mod": {
+      "sha256": "96db8fe50071b410b3c09f509850087771c0f9db5b864ff57198002b4fbff794",
+      "bytes": 12280
+    },
+    "Base/AirCube_Recovered.pretty/MODULE_ESP32-H2-MINI-1-H2.kicad_mod": {
+      "sha256": "c7e4597344e9978c3c4066cbf9c90321c6fa7cf06d580615481997115a4fab91",
+      "bytes": 18266
+    },
+    "Base/AirCube_Recovered.pretty/MountingHole_2.2mm_M2.kicad_mod": {
+      "sha256": "7b7b210be1afe9386fd53a83c412a1350b39db0136e8f4a658b424466749403a",
+      "bytes": 1915
+    },
+    "Base/AirCube_Recovered.pretty/OSHW-Logo2_7.3x6mm_SilkScreen.kicad_mod": {
+      "sha256": "b7480ab1e6665fb17377dff8d7fea92b0d8beacb81a2645e4788450581f596a4",
+      "bytes": 30163
+    },
+    "Base/AirCube_Recovered.pretty/OSHW_Logo_Documentation.kicad_mod": {
+      "sha256": "ba5b7ec2968501409e6c7c9db46e4c27d45bbd76b8b0f2c99ab31ce95b73cad4",
+      "bytes": 29746
+    },
+    "Base/AirCube_Recovered.pretty/R_0603_1608Metric.kicad_mod": {
+      "sha256": "6f100d17434a9a2f3ce717a906b88c944a067211089803db9d9e695b4ac1ada9",
+      "bytes": 3883
+    },
+    "Base/AirCube_Recovered.pretty/SOT-23.kicad_mod": {
+      "sha256": "f14cb69132d4a6d8ec4c8c6f7ac8a7b0d6cc0d86bb099218e073b94349f0a3a0",
+      "bytes": 4275
+    },
+    "Base/AirCube_Recovered.pretty/SWITCH_0SMTRLFS.kicad_mod": {
+      "sha256": "135e947401b7944cc1844dd0e9fb6bd4374e7f5c4894d9baa57dd806c03e28b0",
+      "bytes": 10020
+    },
+    "Base/AirCube_Recovered.pretty/TL1016AAF220QG.kicad_mod": {
+      "sha256": "921a96dee72459a0f36ec6f7d40ca82d983573fea38a92488d98c89a636aa4dd",
+      "bytes": 6375
+    },
+    "Base/AirCube_Recovered.pretty/TPS22975_DSG_TI_LandPattern.kicad_mod": {
+      "sha256": "4933416b4a847b946fb7d20e358daff65d082572013c9c9a080e4475893448e6",
+      "bytes": 6580
+    },
+    "Base/AirCube_Recovered.pretty/TPS6213x_RGT_ThermalDrill0.30.kicad_mod": {
+      "sha256": "533864ce5bd18792486f2adad03ac71354e928f8c3f4991b1762f6b1dc0a954f",
+      "bytes": 11600
+    },
+    "Base/AirCube_Recovered.pretty/TestPoint_Pad_1.5x1.5mm.kicad_mod": {
+      "sha256": "12dcca083b68ebaa10227775838ced52982bb41b8d3bfa770257d5ec3f78e806",
+      "bytes": 3051
+    },
+    "Base/AirCube_Recovered.pretty/nanoSIM_GCT_SIM8060-6-0-14-00_GroundedShell.kicad_mod": {
+      "sha256": "a4b4c3360425a69dcae77337fe4f4ab9c35cb17023ae0d8b020f4b927d9d3bf7",
+      "bytes": 10217
+    },
+    "Base/AirCube_SAMC21_Recovered.kicad_sym": {
+      "sha256": "1fde885daad53c0af7b4294d34ac4491cad8db470915eda17bb7c822a0add8ef",
+      "bytes": 5734
+    },
+    "Base/Button_Switch_SMD.pretty/SW_SPST_TL3305A.kicad_mod": {
+      "sha256": "5fc61de358e63da9a40323fbabf618f742356d52b6e2cbd92e37337a089b033f",
+      "bytes": 7516
+    },
+    "Base/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod": {
+      "sha256": "6478b527b8b7f4ce085868fc3b014cd30d3e7e7de97232e657e47370e443fe8c",
+      "bytes": 2859
+    },
+    "Base/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod": {
+      "sha256": "41fb38efe78c878185fe3402ee11976829f0531c55c7b021fef276f5dbe34ed0",
+      "bytes": 2857
+    },
+    "Base/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod": {
+      "sha256": "0706ff9bb41e09952558d04d7790428193f9ea4d4b9df05adcd68ff866359540",
+      "bytes": 2957
+    },
+    "Base/Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod": {
+      "sha256": "20d949d1748a809c44d0e935a8ef61673347dee7badf6a7336d37d7d98639a2d",
+      "bytes": 2865
+    },
+    "Base/Capacitor_Tantalum_SMD.pretty/CP_EIA-3528-21_Kemet-B.kicad_mod": {
+      "sha256": "169d23085b03f2e167047900cd63b50b2afe074ef7c2306d25507317569df39d",
+      "bytes": 3638
+    },
+    "Base/Connector_Coaxial.pretty/U.FL_Hirose_U.FL-R-SMT-1_Vertical.kicad_mod": {
+      "sha256": "b8625569f3b0ce7f7dac1e5b8b7a53ad033457e810d8414c8f8c8c30b345737f",
+      "bytes": 6827
+    },
+    "Base/Connector_JST.pretty/JST_ZH_B5B-ZR_1x05_P1.50mm_Vertical.kicad_mod": {
+      "sha256": "661cd886f05e0ab0d967b5554c7dc6cf621e535e6e76cc99c8ce4a15c40b7bf8",
+      "bytes": 8085
+    },
+    "Base/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod": {
+      "sha256": "2c40a3fb51039a499cb7d02c30e9ff02ef663f912a49da60edef1b58eb43cced",
+      "bytes": 4461
+    },
+    "Base/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod": {
+      "sha256": "071ae41f3a9576915d001473ee9ad5ce0f9512e223896633eceacc867c9f6af1",
+      "bytes": 4664
+    },
+    "Base/Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod": {
+      "sha256": "e5ec19be5f7ff2553d4217e46221912294967b5196bb7ff18b7b3e66fde90593",
+      "bytes": 7023
+    },
+    "Base/Diode_SMD.pretty/D_SOD-523.kicad_mod": {
+      "sha256": "a781dd1b2b625c6de4a959a59f5cd4f22a85cdf8983e346a7955c348e5c7f63b",
+      "bytes": 4558
+    },
+    "Base/Diode_SMD.pretty/D_SOD-882.kicad_mod": {
+      "sha256": "22c7f089c555d83093bdba1c8c3e73e56f5781a64d89f4b86fc23cd968729681",
+      "bytes": 5189
+    },
+    "Base/Inductor_SMD.pretty/L_Coilcraft_XAL4020-XXX.kicad_mod": {
+      "sha256": "09d11b17670af3cd8149a748c9f30522cc8f9ce204a805f64b92b10e36004f84",
+      "bytes": 2655
+    },
+    "Base/MountingHole.pretty/MountingHole_2.2mm_M2.kicad_mod": {
+      "sha256": "7621ea4db97bf94019284b4470b7da63c7881ed503d137ad32d55f75fa027b77",
+      "bytes": 1815
+    },
+    "Base/Package_DFN_QFN.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod": {
+      "sha256": "f52480a46d22a91b03a22d06a337b4fdade8da5d1b24d603eb96f3409b6aa111",
+      "bytes": 7027
+    },
+    "Base/Package_SO.pretty/TSSOP-20_4.4x6.5mm_P0.65mm.kicad_mod": {
+      "sha256": "d6d5e60390e32a6c4c40b2262c90eb65904ddf7df39a882a28d58f59207464d3",
+      "bytes": 8149
+    },
+    "Base/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod": {
+      "sha256": "03b5e7d958dafc18f0bc73ea2ff59263575845c14a3f6ac88ca5e664f5d03e88",
+      "bytes": 6913
+    },
+    "Base/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod": {
+      "sha256": "37c76da94a928fc13f68906684fec4874e08162761630b70165237aae38fb545",
+      "bytes": 6985
+    },
+    "Base/RF_GSM.pretty/Quectel_BG95.kicad_mod": {
+      "sha256": "9a90cbe1f751471a8bd66792102c988b15c6b9b3020c615263a66ae9c7dbdd56",
+      "bytes": 21433
+    },
+    "Base/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod": {
+      "sha256": "c969989563bc759c257de95b9d909f8b0642452876b58662c80bd53051febfab",
+      "bytes": 2839
+    },
+    "Base/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod": {
+      "sha256": "b8ff1d63789a856ee12f0880554d4288490f8f7ca10254c05feafa3e2b72949e",
+      "bytes": 2845
+    },
+    "Base/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod": {
+      "sha256": "f97a740100d239886503fa28a56f6ce7e5af772272c13868cf0d20cbecaad9fb",
+      "bytes": 2859
+    },
+    "Base/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod": {
+      "sha256": "856bb8e5a6396cec0beea80992c044dad941ff5f204b6a3f5f353951b377fc9f",
+      "bytes": 1812
+    },
+    "Base/fp-lib-table": {
+      "sha256": "305718b9525f5a8d94222c402b2b20a5df025e34aa517d013b9f16761e4a70c8",
+      "bytes": 3214
+    },
+    "Base/sym-lib-table": {
+      "sha256": "bfbe77e3186539b7061732dfd832ffbf037f92462f8f23c2813081c91fff0e70",
+      "bytes": 535
+    },
+    "NOSO_manufacturing_email.txt": {
+      "sha256": "6455abecc597b6558c02dd7ca6713183c060f27ce74201e77cf1e3d43a4650cd",
+      "bytes": 7199
+    },
+    "README_REVISIONS.md": {
+      "sha256": "533cd5ca2d58eb51c01182cf04e773e86a457305576c28229e48e42a8865ecf2",
+      "bytes": 5877
+    },
+    "REVISION_STATUS.md": {
+      "sha256": "9399012d38f44ef0be469d5914daa62b0eed85133301196a35296774860d728f",
+      "bytes": 1592
+    },
+    "docs/IMPEDANCE.md": {
+      "sha256": "19895cd9a31c7984d94135ffdf69e74e5d6dcc9eef0357ea0b289ac92996416d",
+      "bytes": 3514
+    },
+    "docs/POWER.md": {
+      "sha256": "52c94c7a86063498a92d68d76d4711142865d81e095703ef1b5cbfc94539052c",
+      "bytes": 8419
+    },
+    "manufacturing/ORDER_SPECIFICATION.md": {
+      "sha256": "9449d86701cb4dd10c8f01b41571730c1a0c40e2a9cf13095d2b05922973a645",
+      "bytes": 5112
+    },
+    "manufacturing/assembly/AirCube-BOM.csv": {
+      "sha256": "f2908f2606e5dc7aaa12678608a558c5d89234e6e0de4cb3432cf0521c8ba689",
+      "bytes": 7550
+    },
+    "manufacturing/assembly/AirCube-placement.csv": {
+      "sha256": "66e4196b5908df3e8afd1bd7a61496821b7fd05929e7d2c1f9d6ad8798e38ad3",
+      "bytes": 8236
+    },
+    "manufacturing/drill/AirCube-NPTH-drl_map.svg": {
+      "sha256": "0645834e000fd337a5b6205dee5c758c3d087a02a665a0130d0b9bc8793407de",
+      "bytes": 49154
+    },
+    "manufacturing/drill/AirCube-NPTH.drl": {
+      "sha256": "e7ac10dbb05ff49a79e0331cdf97a60ac9ffa91879096644c75f53ba45680642",
+      "bytes": 500
+    },
+    "manufacturing/drill/AirCube-PTH-drl_map.svg": {
+      "sha256": "c26f5ab2ec71f413777a297bf43bd23db89fb04779d631024add9aa5bcbd5453",
+      "bytes": 165299
+    },
+    "manufacturing/drill/AirCube-PTH.drl": {
+      "sha256": "b192b59ca9f1370973d9c7a4df5b135820ef836acd0ee3f769b196d6a867ea6b",
+      "bytes": 4844
+    },
+    "manufacturing/drill/AirCube-drill.rpt": {
+      "sha256": "6b57f7fd2db6b3f1839ccc60d5b566ab84ec105cef6aeb5ff5e51a42fa5a2b36",
+      "bytes": 1043
+    },
+    "manufacturing/gerbers/AirCube-B_Cu.gbl": {
+      "sha256": "d0b7bbdc6bf1e4b5f6053c54c17d8dd78cd80fa655c2c19af3d69b2c1a1eb6b1",
+      "bytes": 73825
+    },
+    "manufacturing/gerbers/AirCube-B_Mask.gbs": {
+      "sha256": "8c1f088719206c440f859ade51bd9f7724d2dd4d892369be7f86c6ecf2146459",
+      "bytes": 10240
+    },
+    "manufacturing/gerbers/AirCube-B_Paste.gbp": {
+      "sha256": "7d11d8775152cf4b49b368f6297cc5850579e8ebdab3e10b95997cf2727a0ddc",
+      "bytes": 8949
+    },
+    "manufacturing/gerbers/AirCube-B_Silkscreen.gbo": {
+      "sha256": "713030d3dc8905285cb987b30f5a3a3f2e4e046b4df9e256b6b694eda725fd3e",
+      "bytes": 61190
+    },
+    "manufacturing/gerbers/AirCube-Edge_Cuts.gm1": {
+      "sha256": "ec479d7e363451c0466d04cb49624285231af1afc301f2d82c4b06d9be829261",
+      "bytes": 1586
+    },
+    "manufacturing/gerbers/AirCube-F_Cu.gtl": {
+      "sha256": "803fd3c9100c2fbaae9cb6185dae3fd2900d84c4e44f654d28074432255b2a71",
+      "bytes": 85572
+    },
+    "manufacturing/gerbers/AirCube-F_Mask.gts": {
+      "sha256": "254697bc568eae161bb8a223e0a7c617a0f3793462d11537f65253d56a077cd8",
+      "bytes": 14003
+    },
+    "manufacturing/gerbers/AirCube-F_Paste.gtp": {
+      "sha256": "20e8b4d9aa245976057fc1454b64a2bc71414bbb7c800cc5154d7917d38b625e",
+      "bytes": 12927
+    },
+    "manufacturing/gerbers/AirCube-F_Silkscreen.gto": {
+      "sha256": "f5274bf07bb7745ddece83c34cc7dd928c082f11fcc80ee8412fe5a21d01a1fe",
+      "bytes": 91812
+    },
+    "manufacturing/gerbers/AirCube-In1_Cu.g1": {
+      "sha256": "17bcc8b62c16d43653c376b8bc6ab7e0e32c2d7303de0b23012da7c683e915ee",
+      "bytes": 298561
+    },
+    "manufacturing/gerbers/AirCube-In2_Cu.g2": {
+      "sha256": "741a07476e1c4e2f591bbef5bcf0edf57556a7a41ccbde96dd6139a3f9232df5",
+      "bytes": 633241
+    },
+    "manufacturing/gerbers/AirCube-job.gbrjob": {
+      "sha256": "25c3e0995e9b337f2ba667f3073d1306b486bd39eea08e0b511a44ff20f55bdd",
+      "bytes": 4036
+    },
+    "review/JLC3313-user-calculator.png": {
+      "sha256": "f0f9c5768183d656317508c19901ed169019742634f9b3e782b9780c76351e0f",
+      "bytes": 114181
+    },
+    "review/checkpoint1-native-drc.json": {
+      "sha256": "6d0f2f02f2056f81b87ab487dd8d0c3e814497e6bd4047fd06a7d7292c1a6d81",
+      "bytes": 1258
+    },
+    "review/checkpoint1-usb-reference.txt": {
+      "sha256": "003d19bdb6058a5d4d964c3449a6c3a03134f429e307a13b99bb15f55d18ef90",
+      "bytes": 481
+    },
+    "review/checkpoint2-native-drc.json": {
+      "sha256": "fe204f4b3d9d6dbc99b7da76243c93777364f2c46b00f8d4e21029548d8f7e6a",
+      "bytes": 914
+    },
+    "review/checkpoint2-usb-reference.txt": {
+      "sha256": "9cc1b37f308178eb2dc6d0b5f183be396acf50944b095b7d9991992b8ec056db",
+      "bytes": 432
+    },
+    "review/checkpoint3-native-drc.json": {
+      "sha256": "a6607820e704e697afaa9ecdf0d700599c502c1ca73daee67ddcd0c38db5db45",
+      "bytes": 914
+    },
+    "review/checkpoint3-usb-reference.txt": {
+      "sha256": "9cc1b37f308178eb2dc6d0b5f183be396acf50944b095b7d9991992b8ec056db",
+      "bytes": 432
+    },
+    "review/dc-copper-0.03.json": {
+      "sha256": "a0316fef97d5fcac9643a19be0fac6cfc3a0ae99d2a0c7294e956ccb18019f0b",
+      "bytes": 2348
+    },
+    "review/dc-copper-0.06.json": {
+      "sha256": "3481cb1dd9fbce6cc16bf78d8ff2ff331b94200338af06403ef985633690149c",
+      "bytes": 2346
+    },
+    "review/dc-ground-0.06.json": {
+      "sha256": "ac33b80eb54b7ebd2b903c1eea6c72f124dbcd227dc1f0477b94398541c7880c",
+      "bytes": 2227
+    },
+    "review/final-native-drc.json": {
+      "sha256": "f3e48cbf8f7aac5b5183ed18108dc8ce5c2e57a8d484f155c1bb5bc20d1bb55a",
+      "bytes": 914
+    },
+    "review/final-usb-reference.txt": {
+      "sha256": "9cc1b37f308178eb2dc6d0b5f183be396acf50944b095b7d9991992b8ec056db",
+      "bytes": 432
+    },
+    "review/gerber-parse-check.json": {
+      "sha256": "d9069b6b33950f0a386f4b59166bb0381c916588c37ebc409ce613b6a60cc5ff",
+      "bytes": 683
+    },
+    "review/impedance-screen.json": {
+      "sha256": "88761cfe3fd85ec98f81aa21a8b4d0b93e1c3959e45db92000df356ae3ff402c",
+      "bytes": 684
+    },
+    "review/library-recovery.json": {
+      "sha256": "5c371bbfd0a4db292154f0a5b8afeb2ca94112bc4c9a708a95be6dac7c0634e3",
+      "bytes": 1153
+    },
+    "review/modem-rx-route.json": {
+      "sha256": "b9ecf4e0302609c5f0442ccdfaac9c7e878f3180c6d9b3477d505fb9523381d2",
+      "bytes": 47038
+    },
+    "review/order-revision-verification.json": {
+      "sha256": "fca348a1a8511d0591a851106e6523e075ddf0d32613c1429fb60c11f309033a",
+      "bytes": 416
+    },
+    "review/plots/AirCube-B_Cu.png": {
+      "sha256": "38e3ad955f40b77b140fd664087a020ea0c226964ec7c2a51669f2d3c800166d",
+      "bytes": 349296
+    },
+    "review/plots/AirCube-B_Cu.svg": {
+      "sha256": "56942c52cf256bc8e6dd431856e35ed53cf527f45525bfc558c9765caf68d176",
+      "bytes": 227983
+    },
+    "review/plots/AirCube-F_Cu.png": {
+      "sha256": "02b6e228c9078662127095fe444b9f4f44bf7ac77a9ebb499d02f45cfc2e8c79",
+      "bytes": 350890
+    },
+    "review/plots/AirCube-F_Cu.svg": {
+      "sha256": "e7dbb57e4aa83987805c879fe34c6d71a4ce2af09d3904b100b942e7c82029d6",
+      "bytes": 289227
+    },
+    "review/plots/AirCube-In1_Cu.png": {
+      "sha256": "75d4567005c062f1271b479e6bf0e1342b706d007d15dc18e8e4660300b3b21c",
+      "bytes": 374607
+    },
+    "review/plots/AirCube-In1_Cu.svg": {
+      "sha256": "eaa3bd78b63fdf27de86e1745f15db2d44e29d16646ee873da243025a831a5be",
+      "bytes": 276508
+    },
+    "review/plots/AirCube-In2_Cu.png": {
+      "sha256": "04470b6c17f5e15848a8c31a6044ba618ef6570113fd11c288241c7d42011fa7",
+      "bytes": 375595
+    },
+    "review/plots/AirCube-In2_Cu.svg": {
+      "sha256": "80fff0b7c821d09e82264a55bc58643e403327480dce21a85c927eeff4790c3d",
+      "bytes": 489969
+    },
+    "review/plots/Gerber-copper-B_Cu.png": {
+      "sha256": "8507e289dac00e3bea81928aa509be24b9233733996fdaf0ac38fa12236ed998",
+      "bytes": 300375
+    },
+    "review/plots/Gerber-copper-B_Cu.svg": {
+      "sha256": "4b9c93fafcb52bb838a6f06a5303b8f402cf629cc78df196bd9af28c0cd7277f",
+      "bytes": 244563
+    },
+    "review/plots/Gerber-copper-F_Cu.png": {
+      "sha256": "f9f97d0c9b7d1df46066a30ec0bb0077ec203e946826f976b0dda169eeb452e6",
+      "bytes": 312606
+    },
+    "review/plots/Gerber-copper-F_Cu.svg": {
+      "sha256": "bd6828cf7fb080dec3eb5dc6fef89c895ac6af3f14e347b5f8919033a319ce66",
+      "bytes": 349816
+    },
+    "review/plots/Gerber-copper-In1_Cu.png": {
+      "sha256": "59c898f8d024ffa31c8189aba457335787c2c5b654cb4263bcb9002e56593d43",
+      "bytes": 246415
+    },
+    "review/plots/Gerber-copper-In1_Cu.svg": {
+      "sha256": "9ed303472000e352fe0a63fe55732c838a8b1271c6bfe1d1235026e264ebe779",
+      "bytes": 288820
+    },
+    "review/plots/Gerber-copper-In2_Cu.png": {
+      "sha256": "5b20be040ecf3fb579fe9e59f72ef37a57ec8cccfe51cb05ff32888943810e49",
+      "bytes": 245732
+    },
+    "review/plots/Gerber-copper-In2_Cu.svg": {
+      "sha256": "bfc07229f2c6b26c93ead34b6ed80c0beb5d26a4392b5d6ceb5234532b71b550",
+      "bytes": 506097
+    },
+    "review/power-bridge-route.json": {
+      "sha256": "3208fd66de2cee7d90228ce0892fc3e8c05fdf2e070f4b54d66357a3196f41cb",
+      "bytes": 17826
+    },
+    "review/power-part-selections.json": {
+      "sha256": "7e0bfaf54bb03f174daa62c3b7dac3004548f031fb94ae5b987caa7399c4b6d9",
+      "bytes": 1150
+    },
+    "review/routing-change-log.json": {
+      "sha256": "57436d5aa2e03854bd2f9e50759aa6d8e6b56305ab1144121bbe8cb1776d2a72",
+      "bytes": 55552
+    },
+    "review/schematic-erc.json": {
+      "sha256": "0068d3e92e2325cf0a17a02b9ed775f19243eb13b36f4c67bfda799e58dde37c",
+      "bytes": 234146
+    },
+    "review/source-received-DRC.json": {
+      "sha256": "e9f172cd2add0395976b3371a9ea319c5ce6e5ec9fa1495219671e587f3a30f5",
+      "bytes": 4573
+    },
+    "review/source-received-STATUS.txt": {
+      "sha256": "b85d654d388db1c83a0848294f2f764b7a60beef84a64291d28d052e9c33384b",
+      "bytes": 137
+    },
+    "review/thickness-correction.json": {
+      "sha256": "60ad5875cfbb988aa6d02c22b0cfffb09e594d9a231259c1223020d15c424617",
+      "bytes": 583
+    },
+    "tools/README.md": {
+      "sha256": "1fd68a2833a162bc2329a884f66d04805b68446477dd1aade9969cb03805802b",
+      "bytes": 885
+    },
+    "tools/dc_power_estimate.py": {
+      "sha256": "42f2008af73a3abcdde8ab4a79a404a7f74c8ce6c84893e51aff32adfe768004",
+      "bytes": 5760
+    },
+    "tools/impedance_screen.py": {
+      "sha256": "bbfc7b7182daca811f8960c65e2a1f5eacd3738ba59d32fe66f33795a67f1ed8",
+      "bytes": 1595
+    },
+    "tools/parse_board.py": {
+      "sha256": "54d25f3eaf697fdb0d80c939fc9536bf95d9ee738f2856e75243ae5df9c3564d",
+      "bytes": 1862
+    },
+    "tools/usb_reference_audit.py": {
+      "sha256": "2829937e48cb428c8a87ef5cdd3bdbfbad18ff50e1607b0001c77093317b0f12",
+      "bytes": 1460
+    }
+  },
+  "revision_note": "Order metadata reconciled; fixed JLCPCB/JLC04161H-3313 specification; two assembled PCBAs, shared external test kit; revised email included.",
+  "kicad_total_thickness_including_mask_mm": 1.59468,
+  "jlc_nominal_order_category_mm": 1.6,
+  "copper_dielectric_sum_mm": 1.5642
+}

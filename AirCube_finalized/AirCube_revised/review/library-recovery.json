@@ -1,0 +1,27 @@
+{
+  "exported_from_supplied_board": [
+    "Capacitor_SMD:C_0603_1608Metric",
+    "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+    "Capacitor_SMD:C_1210_3225Metric",
+    "RF_GSM:Quectel_BG95",
+    "TestPoint:TestPoint_Pad_D1.5mm",
+    "MountingHole:MountingHole_2.2mm_M2",
+    "Resistor_SMD:R_0805_2012Metric",
+    "Resistor_SMD:R_0603_1608Metric",
+    "Resistor_SMD:R_0402_1005Metric",
+    "Capacitor_SMD:C_0805_2012Metric",
+    "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "Capacitor_SMD:C_0402_1005Metric",
+    "Connector_JST:JST_ZH_B5B-ZR_1x05_P1.50mm_Vertical",
+    "Diode_SMD:D_SOD-523",
+    "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+    "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "Diode_SMD:D_SOD-882",
+    "Button_Switch_SMD:SW_SPST_TL3305A",
+    "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+    "Package_TO_SOT_SMD:SOT-23",
+    "Package_TO_SOT_SMD:SOT-23-5",
+    "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+  ],
+  "purpose": "Make supplied footprint geometry available without a global KiCad library installation. This is not independent package validation."
+}

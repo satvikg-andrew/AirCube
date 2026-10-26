@@ -1,0 +1,42 @@
+{
+  "L1": [
+    "Coilcraft",
+    "XAL4020-222MEC",
+    "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal40xx/xal4020-222/"
+  ],
+  "L2": [
+    "Coilcraft",
+    "XAL4020-222MEC",
+    "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal40xx/xal4020-222/"
+  ],
+  "C18": [
+    "TDK",
+    "C3225X7R1C226K250AC",
+    "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3225x7r1c226k250ac.pdf"
+  ],
+  "C26": [
+    "TDK",
+    "C3225X7R1C226K250AC",
+    "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3225x7r1c226k250ac.pdf"
+  ],
+  "C33": [
+    "KEMET",
+    "T520B107M006ATE040",
+    "https://search.kemet.com/download/specsheet/T520B107M006ATE040"
+  ],
+  "C34": [
+    "KEMET",
+    "T520B107M006ATE040",
+    "https://search.kemet.com/download/specsheet/T520B107M006ATE040"
+  ],
+  "R28": [
+    "Vishay",
+    "WFZ080500000ZE66",
+    "https://www.vishay.com/docs/30432/wfz-jumper.pdf"
+  ],
+  "R29": [
+    "Vishay",
+    "WFZ080500000ZE66",
+    "https://www.vishay.com/docs/30432/wfz-jumper.pdf"
+  ]
+}

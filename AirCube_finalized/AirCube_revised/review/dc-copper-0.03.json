@@ -1,0 +1,176 @@
+[
+  {
+    "net": "/USB_VBUS_RAW",
+    "from": [
+      [
+        "J6",
+        "A4"
+      ],
+      [
+        "J6",
+        "A9"
+      ],
+      [
+        "J6",
+        "B4"
+      ],
+      [
+        "J6",
+        "B9"
+      ]
+    ],
+    "to": [
+      [
+        "U8",
+        "1"
+      ],
+      [
+        "U8",
+        "2"
+      ]
+    ],
+    "copper_resistance_milliohms": 20.208468207909245,
+    "mesh_pitch_mm": 0.03,
+    "nodes": 22996
+  },
+  {
+    "net": "+5VD",
+    "from": [
+      [
+        "U8",
+        "7"
+      ],
+      [
+        "U8",
+        "8"
+      ]
+    ],
+    "to": [
+      [
+        "U7",
+        "10"
+      ],
+      [
+        "U7",
+        "11"
+      ],
+      [
+        "U7",
+        "12"
+      ]
+    ],
+    "copper_resistance_milliohms": 38.93276133658328,
+    "mesh_pitch_mm": 0.03,
+    "nodes": 383557
+  },
+  {
+    "net": "+5VD",
+    "from": [
+      [
+        "U8",
+        "7"
+      ],
+      [
+        "U8",
+        "8"
+      ]
+    ],
+    "to": [
+      [
+        "U6",
+        "10"
+      ],
+      [
+        "U6",
+        "11"
+      ],
+      [
+        "U6",
+        "12"
+      ]
+    ],
+    "copper_resistance_milliohms": 33.84519325140268,
+    "mesh_pitch_mm": 0.03,
+    "nodes": 383557
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "from": [
+      [
+        "L1",
+        "1"
+      ]
+    ],
+    "to": [
+      [
+        "R28",
+        "1"
+      ]
+    ],
+    "copper_resistance_milliohms": 24.255920017350135,
+    "mesh_pitch_mm": 0.03,
+    "nodes": 921924
+  },
+  {
+    "net": "/MODEM_VBAT",
+    "from": [
+      [
+        "L1",
+        "1"
+      ]
+    ],
+    "to": [
+      [
+        "R29",
+        "2"
+      ]
+    ],
+    "copper_resistance_milliohms": 10.25479905785638,
+    "mesh_pitch_mm": 0.03,
+    "nodes": 921924
+  },
+  {
+    "net": "/MODEM_VBAT_BB",
+    "from": [
+      [
+        "R28",
+        "2"
+      ]
+    ],
+    "to": [
+      [
+        "U3",
+        "32"
+      ],
+      [
+        "U3",
+        "33"
+      ]
+    ],
+    "copper_resistance_milliohms": 4.08799033993566,
+    "mesh_pitch_mm": 0.03,
+    "nodes": 15716
+  },
+  {
+    "net": "/MODEM_VBAT_RF",
+    "from": [
+      [
+        "R29",
+        "1"
+      ]
+    ],
+    "to": [
+      [
+        "U3",
+        "52"
+      ],
+      [
+        "U3",
+        "53"
+      ]
+    ],
+    "copper_resistance_milliohms": 1.483113094832756,
+    "mesh_pitch_mm": 0.03,
+    "nodes": 29939
+  }
+]

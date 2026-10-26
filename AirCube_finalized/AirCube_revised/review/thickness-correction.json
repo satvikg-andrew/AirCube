@@ -1,0 +1,12 @@
+{
+  "previous_general_thickness_mm": "1.66",
+  "corrected_kicad_total_thickness_mm": "1.59468",
+  "copper_and_dielectric_sum_mm": "1.5642",
+  "modelled_solder_mask_total_mm": "0.03048",
+  "jlc_order_thickness_category_mm": "1.6",
+  "required_stackup": "JLC04161H-3313",
+  "physical_copper_or_dielectric_changes": false,
+  "solder_mask": "Green",
+  "silkscreen": "White",
+  "note": "KiCad total includes the existing modelled mask layers. JLC stackup nominal laminate is about 1.56 mm within its 1.6 mm order category. Do not alter dielectric geometry to force the category number."
+}

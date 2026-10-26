@@ -1,0 +1,43 @@
+{
+  "copper_layers": [
+    [
+      "top",
+      "copper"
+    ],
+    [
+      "bottom",
+      "copper"
+    ],
+    [
+      "inner_1",
+      "copper"
+    ],
+    [
+      "inner_2",
+      "copper"
+    ]
+  ],
+  "bounding_box_mm": [
+    [
+      23.95,
+      -86.05
+    ],
+    [
+      69.05,
+      -40.95
+    ]
+  ],
+  "layer_objects": {
+    "('top', 'copper')": 1531,
+    "('top', 'mask')": 316,
+    "('top', 'silk')": 1912,
+    "('top', 'paste')": 299,
+    "('bottom', 'copper')": 1408,
+    "('bottom', 'mask')": 219,
+    "('bottom', 'silk')": 1261,
+    "('bottom', 'paste')": 191,
+    "('inner_1', 'copper')": 799,
+    "('inner_2', 'copper')": 454,
+    "('mechanical', 'outline')": 20
+  }
+}

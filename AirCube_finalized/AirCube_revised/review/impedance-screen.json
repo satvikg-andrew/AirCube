@@ -1,0 +1,14 @@
+{
+  "stackup": "JLC04161H-3313",
+  "outer_dielectric_mm": 0.0994,
+  "copper_mm": 0.035,
+  "dielectric_constant": 4.1,
+  "usb_gap_mm": 0.127,
+  "usb_actual_width_mm": 0.13,
+  "jlc_screenshot_90ohm_width_mm": 0.123444,
+  "width_difference_percent": 5.310910210297792,
+  "usb_calibrated_width_sensitivity_estimate_ohms": 87.85891803544486,
+  "rf_actual_width_mm": 0.17,
+  "rf_unmasked_isolated_microstrip_screen_ohms": 50.73601669160481,
+  "limitations": "Preliminary only. USB is a ratio calibrated to user-supplied JLC screenshot, not a coupled-line field solution. RF omits solder mask and coplanar copper. Fabricator must confirm both targets against actual finished construction."
+}
